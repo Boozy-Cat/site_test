@@ -3,25 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <?php include 'php/stylesheet.php'?>
     <title>Music</title>
 </head>
 <body>
-    <header>
-        <h2><a href="index.html">__Some_text__</a></h2>
-    </header>
-    <br>
-    
-    <nav>
-        <div class="nav"><a href="#">Jap learn</a>
-        <a href="music.html">Music</a>
-        <a href="#">Gallery</a>
-        <a href="#">Projects</a>
-        <a href="#">Want's things</a>
-        <a href="#">Little wishes</a>
-        <a href="notes.html">Notes</a>
-        <span class="tech"><a href="stat.html">Stats</a></span></div>
-    </nav><br>
+<?php include 'php/header.php'?>
+        <?php include 'php/navigation_bar.php'?>
     
     <main>
         <div class="top_spacer"></div>
@@ -70,12 +57,8 @@
                 <source src="http://docs.google.com/uc?export=open&id=" type="audio/mp3">
             </audio><span class="name"></span>
         </div>
-    </main><br>
-
-    <footer>
-        <br>
-        <address>Contact: <a href="mailto:stor.andy.age@gmail.com">Site's administrator</a></address>
-        <span class="year-bottom">@2020</span>
-    </footer>
+    </main>
+    <br>
+    <?php include 'php/footer.php'?>
 </body>
 </html>
